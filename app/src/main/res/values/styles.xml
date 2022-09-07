@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppTheme.FavoriteCheckBox" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/like_checkbox_tint</item>
+        <item name="android:minWidth" >@dimen/icon_button_min_size</item>
+        <item name="android:minHeight" >@dimen/icon_button_min_size</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textSize">0sp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.AppTheme.BasicIconStyle" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/white</item>
+        <item name="android:minWidth" >@dimen/icon_button_min_size</item>
+        <item name="android:minHeight" >@dimen/icon_button_min_size</item>
+        <item name="backgroundTint">#40000000</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textSize">0sp</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/caveat_semi_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

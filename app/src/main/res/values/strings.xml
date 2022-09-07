@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">-MasterChef-</string>
+    <string name="category_russian">Русская</string>
+    <string name="category_asian">Азиатская</string>
+    <string name="category_european">Европейская</string>
+    <string name="category_american">Американская</string>
+    <string name="category_mediterranean">Средиземноморская</string>
+    <string name="category_eastern">Восточная</string>
+    <string name="category_panAsian">Паназиатская</string>
+    <string name="notification_add_to_favorites">Добавьте что-нибудь в избранное!</string>
+    <string name="not_found_msg">Ничего не найдено(:</string>
+    <string name="description_upload_image">Загрузить изображение</string>
+    <string name="title_recipe">Название</string>
+    <string name="author">Автор</string>
+    <string name="category_select">Категория</string>
+    <string name="instructions">Способ приготовления</string>
+    <string name="save">Сохранить</string>
+    <string name="close">Закрыть</string>
+    <string name="description_add_to_favorites">Добавить в избранное/ Убрать</string>
+    <string name="description_action_with_recipe">Действия с рецептом</string>
+    <string name="start_cooking">Приготовить сейчас</string>
+    <string name="home">Главная</string>
+    <string name="new_recipe">Новый рецепт</string>
+    <string name="favorites">Избранное</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="search">Поиск</string>
+    <string name="filters">Фильтры</string>
+    <string name="recipe">Рецепт</string>
+    <string name="category">Категория: </string>
+    <string name="bon_appetit">Приятного Аппетита!!!</string>
+    <string name="find_recipes">Поиск рецептов</string>
+    <string name="toast_empty_fields">Заполните все поля!</string>
+    <string name="description_empty_list_favorites">Пустой лист</string>
+    <string name="description_background">Задний фон</string>
+    <string name="ingredients"><![CDATA[<ul>Ингридиенты:</li>]]></string>
+    <string name="apple"><![CDATA[<ul><li>½ яблока;</li>]]></string>
+    <string name="sugar"><![CDATA[<li>2 ложки сахара;</li>]]></string>
+    <string name="garlic"><![CDATA[<li>2 зубчика чеснока;</li>]]></string>
+    <string name="apple_vinegar"><![CDATA[<li>30мл. яблочного уксуса;</li>]]></string>
+    <string name="walnut"><![CDATA[<li>200г. грецкого ореха;</li>]]></string>
+
+</resources>

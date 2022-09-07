@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasterChef</string>
+    <string name="category_russian">Russian</string>
+    <string name="category_asian">Asian</string>
+    <string name="category_european">"European "</string>
+    <string name="category_eastern">Eastern</string>
+    <string name="category_mediterranean">Mediterranean</string>
+    <string name="category_american">American</string>
+    <string name="category_panAsian">Pan-Asian</string>
+    <string name="category">Category:</string>
+    <string name="notification_add_to_favorites">Add something to your favorites!</string>
+    <string name="not_found_msg">Not found(:</string>
+    <string name="description_upload_image">Upload image</string>
+    <string name="title_recipe">Title</string>
+    <string name="author">Author</string>
+    <string name="category_select">Category</string>
+    <string name="instructions">Cooking instructions</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="description_add_to_favorites">Add to favorites / Remove</string>
+    <string name="description_action_with_recipe">Recipe Actions</string>
+    <string name="start_cooking">Start Cooking</string>
+    <string name="home">Home</string>
+    <string name="new_recipe">New recipe</string>
+    <string name="favorites">Favorites</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="filters">Filters</string>
+    <string name="recipe">Recipe</string>
+    <string name="bon_appetit">Bon Appetit!!!</string>
+    <string name="description_empty_list_favorites">Empty list</string>
+    <string name="toast_empty_fields">Fill in all the fields</string>
+    <string name="find_recipes">Find recipes</string>
+    <string name="description_background">Background</string>
+    <string name="apple"><![CDATA[<ul><li>½ apple;</li>]]></string>
+    <string name="sugar"><![CDATA[<li>2 spoons of sugar;</li>]]></string>
+    <string name="garlic"><![CDATA[<li>2 garlic cloves;</li>]]></string>
+    <string name="apple_vinegar"><![CDATA[<li>30ml. apple vinegar;</li>]]></string>
+    <string name="walnut"><![CDATA[<li>200g.walnut;</li>]]></string>
+    <string name="ingredients"><![CDATA[<ul>Ingridiens:</li>]]></string>
+</resources>
