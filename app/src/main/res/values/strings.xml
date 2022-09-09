@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">-MasterChef-</string>
+    <string name="app_name" translatable="false">-MasterChef-</string>
     <string name="category_russian">Русская</string>
     <string name="category_asian">Азиатская</string>
     <string name="category_european">Европейская</string>

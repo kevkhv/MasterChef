@@ -64,17 +64,11 @@ class FeedFragment : Fragment(), SearchView.OnQueryTextListener {
             }
         }
 
-        viewModel.categoryList.observe(viewLifecycleOwner) { list ->
-            viewModel.searchDatabase(category = list)
-            println(viewModel.categoryList.value.toString())
-        }
-
         viewModel.filteredList.observe(viewLifecycleOwner) { list ->
             with(binding) {
                 if (list.isEmpty()) {
                     listView.visibility = View.GONE
                     notFoundConstraint.visibility = View.VISIBLE
-
                 } else {
                     adapter.submitList(list)
                     listView.visibility = View.VISIBLE
@@ -82,6 +76,12 @@ class FeedFragment : Fragment(), SearchView.OnQueryTextListener {
                 }
             }
         }
+
+        viewModel.categoryList.observe(viewLifecycleOwner) { list ->
+            viewModel.searchDatabase(category = list)
+        }
+
+
         return binding.root
     }
 

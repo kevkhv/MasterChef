@@ -46,12 +46,10 @@ class NewRecipeFragment : Fragment() {
             }
 
         val currentRecipe = viewModel.data.value?.firstOrNull { it.id == arguments?.idArg }
-        with(binding) {
-            val items = resources.getStringArray(R.array.category_items)
-            val adapter = ArrayAdapter(requireContext(), R.layout.list_item, items)
-            (menu.editText as? AutoCompleteTextView)?.setAdapter(adapter)
 
+        with(binding) {
             currentRecipe?.let { recipe ->
+                menu.editText?.setText(recipe.category)
                 authorTextView.setText(recipe.author)
                 titleView.setText(recipe.title)
                 stepTextView.setText(recipe.content)
@@ -120,10 +118,12 @@ class NewRecipeFragment : Fragment() {
                 viewModel.editedReset()
                 findNavController().navigateUp()
             }
+            val items = resources.getStringArray(R.array.category_items)
+            val adapter = ArrayAdapter(requireContext(), R.layout.list_item, items)
+            (menu.editText as? AutoCompleteTextView)?.setAdapter(adapter)
         }
         return binding.root
     }
-
 
     companion object {
         var Bundle.idArg: Int? by IntArg

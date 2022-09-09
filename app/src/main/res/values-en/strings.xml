@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MasterChef</string>
     <string name="category_russian">Russian</string>
     <string name="category_asian">Asian</string>
-    <string name="category_european">"European "</string>
+    <string name="category_european">European</string>
     <string name="category_eastern">Eastern</string>
     <string name="category_mediterranean">Mediterranean</string>
     <string name="category_american">American</string>
@@ -39,5 +38,5 @@
     <string name="garlic"><![CDATA[<li>2 garlic cloves;</li>]]></string>
     <string name="apple_vinegar"><![CDATA[<li>30ml. apple vinegar;</li>]]></string>
     <string name="walnut"><![CDATA[<li>200g.walnut;</li>]]></string>
-    <string name="ingredients"><![CDATA[<ul>Ingridiens:</li>]]></string>
+    <string name="ingredients"><![CDATA[<ul>Ingredients:</li>]]></string>
 </resources>
